@@ -13,12 +13,14 @@ body {
   border-radius: 15px;
   overflow: hidden;
   width: 300px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  box-shadow: 20px rgba(0,0,0,0.3);
 }
 
 .Box-image {
-  width: 100%;
+    display: flex;
+  width: 90%;
   display: block;
+  padding: 10pt;
 }
 
 .Box-content {
